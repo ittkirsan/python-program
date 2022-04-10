@@ -17,8 +17,5 @@ number = int(input('Введите колличество строк: '))
 
 for row in range(number):
     for col in range(number):
-        if row % 2 == 0:
-            print((col*2 + row), end='\t')
-        else:
-            print((col*2 + row), end='\t')
+        print((col*2 + row), end='\t')
     print()

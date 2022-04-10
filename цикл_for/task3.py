@@ -12,8 +12,7 @@ number = int(input('Введите число: '))
 print()
 
 for row in range(1, number + 1):
-    for col in range(1, number + 1):
+    for col in range(row):
         if col <= row:
             print(row, end='\t')
-
     print()
